@@ -39,7 +39,8 @@
 }
 
 .container {
-  width: 100%;
+  width: auto;
+  height: auto;
   max-width: 1440px;
   margin: 0 auto;
   padding-left: 128px;
@@ -54,6 +55,10 @@ body {
   line-height: 1.4;
   font-family: 'Oswald', sans-serif;
   height: 100vh;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 .title {
@@ -153,8 +158,9 @@ a {
   }
 
   .title {
-    margin-bottom: -50px;
+    margin-bottom: -200px;
   }
+
 
   .flex {
     flex-direction: column;
@@ -163,4 +169,17 @@ a {
   .button {
     display: block;
   }
+}
+
+@media (max-width: 500px) and (min-width: 600px) {
+
+
+
+  .title h1 {
+    font-size: 20px;
+
+  }
+
+
+
 }
